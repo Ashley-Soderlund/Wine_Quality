@@ -70,4 +70,4 @@ print("Mean Absolute Error of Random Forest Classifier is ", mae)
 print("Mean Absolute Error of Random Forest Classifier is ", mse)
 print("Mean Absolute Error of Random Forest Classifier is ", rmse)
 
-//Create a predict function that takes input from front-end and returns the predicted quality value because of best method used
+#Create a predict function that takes input from front-end and returns the predicted quality value because of best method used
