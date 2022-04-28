@@ -13,7 +13,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
 from sklearn.metrics import *
 
-wine = pd.read_csv('../Wine_Quality/winequality-red.csv', sep=";")
+wine = pd.read_csv('https://raw.githubusercontent.com/Ashley-Soderlund/Google-Colab-Wine-Quality/main/winequality-red.csv', sep=";")
 
 X = wine[['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
           'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
@@ -69,3 +69,5 @@ rmse = np.sqrt(metrics.mean_squared_error(y_test, forest_prediction))
 print("Mean Absolute Error of Random Forest Classifier is ", mae)
 print("Mean Absolute Error of Random Forest Classifier is ", mse)
 print("Mean Absolute Error of Random Forest Classifier is ", rmse)
+
+//Create a predict function that takes input from front-end and returns the predicted quality value because of best method used
